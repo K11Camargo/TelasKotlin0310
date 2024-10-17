@@ -1325,10 +1325,10 @@ fun TelaPerfil() {
                                                         )
 
                                                         Divider(
-                                                            color = Color.Black, // Escolha a cor da linha
-                                                            thickness = 1.dp,   // Espessura da linha
+                                                            color = Color.Black, 
+                                                            thickness = 1.dp,   
                                                             modifier = Modifier
-                                                                .width(15.dp) // Preencher largura da coluna
+                                                                .width(15.dp) 
                                                         )
 
                                                         Text(
@@ -1357,7 +1357,7 @@ fun TelaPerfil() {
                                                 modifier = Modifier
                                                     .height(55.dp)
                                                     .fillMaxWidth(),
-                                                verticalAlignment = Alignment.CenterVertically // Centraliza verticalmente todos os itens da Row
+                                                verticalAlignment = Alignment.CenterVertically 
 
                                             ) {
                                                 Box(
@@ -1414,10 +1414,10 @@ fun TelaPerfil() {
                                                     )
 
                                                     Divider(
-                                                        color = Color.Black, // Escolha a cor da linha
-                                                        thickness = 1.dp,   // Espessura da linha
+                                                        color = Color.Black, 
+                                                        thickness = 1.dp,   
                                                         modifier = Modifier
-                                                            .width(15.dp) // Preencher largura da coluna
+                                                            .width(15.dp) 
                                                     )
 
                                                     Text(
@@ -1429,8 +1429,6 @@ fun TelaPerfil() {
                                                     )
                                                 }
                                             }
-
-
                                         }
                                         Row(
                                             modifier = Modifier
@@ -1512,36 +1510,14 @@ fun TelaPerfil() {
                                                     )
                                                 }
                                             }
-
                                         }
-
                                     }
-
                                 }
-
-
-
                             }
-
                         }
-
-
-
-
-
-
-
                     }
-
-
-
-
                 }
-
-
             }
-
-
         }
     }
 }
